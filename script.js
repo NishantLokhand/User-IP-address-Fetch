@@ -85,9 +85,9 @@ function renderElement(data, position, dataDetail) {
   // date time in YYYY-MM-DD format
   let date_time = year + "-" + month + "-" + date;
 
-  // "2021-03-22"
+ 
   console.log(date_time);
-  // console.log(date_time.getHours());
+  
 
   detailsData.style.display = "block";
   detailsData.innerHTML = "";
@@ -129,7 +129,7 @@ search.addEventListener("input", () => {
       filterArr.push(arr[i]);
     }
   }
-  // console.log(filterArr);
+ 
   displayData(filterArr);
 });
 
